@@ -1,7 +1,7 @@
 // current date
 
 var todayDate = new Date();
-var day = todayDate.getDay();
+var day = todayDate.getDate();
 
 var monthname = ["January", "February", "March", "April", "May", "June", "July", "August", "September",  "Octuber", "November", "December"]
 var monthIndex = todayDate.getMonth();
